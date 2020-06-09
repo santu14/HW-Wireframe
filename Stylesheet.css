@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    
+}
+
+
+.header {
+
+    display: flex;
+   
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+   
+    text-align: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.aside-1{
+    order: 1;
+    width: 250px;
+}
+.aside-2 {
+    order: 2;
+    width: 400px;
+}
+
+.aside-3 {
+    order: 3;
+    width: 250px;
+}
+
+body {
+    
+    background-color: whitesmoke;
+}
